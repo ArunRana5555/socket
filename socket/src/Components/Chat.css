@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container12 {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+}
+
+.upper12 {
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.upper12 h1{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.upper12 a img{
+    width: 30px;
+    margin-top:35px;
+    margin-right: 20px;
+    border-radius:15px;
+}
+.upper12 a img:hover{
+    transform: scale(1.1);
+}
+
+.middle12 {
+    border: 1px solid black;
+    height: 350px;
+}
+
+.lower12 {
+    margin-left: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+#text-chat {
+    width: 520px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.chat-button {
+    width: 75px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #f000b4;
+}
+
+@media screen and (max-width:666px) {
+    .container12 {
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: pink;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media screen and (max-width:502px) {
+    .container12 {
+        width: 400px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: pink;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container12 {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: pink;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    }
+}

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(313, 100%, 46%);
+}
+
+.join-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: gray;
+    padding: 5% 3%;
+    border-radius: 10px;
+    background: linear-gradient(50deg, hsl(290, 94%, 20%), hsl(313, 100%, 46%), hsl(290, 94%, 20%));
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5.9);
+}
+
+.upper {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.head {
+    height: 50%;
+    margin-top: 25%;
+}
+
+.lower {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+
+.text {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+}
+
+#text1 {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid black;
+    color: black;
+    font-family: bold;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(28, 28, 219);
+}
